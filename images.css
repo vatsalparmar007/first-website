@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+   background-color: rgba(4, 223, 4, 0.4);
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    transition: all 1s;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.top{
+    margin: 5px;
+    display: inline-block;
+}
+img:hover{
+    
+    transform: scale(1.35);
+    
+}
+a{
+    text-decoration-color: 009D9D;
+
+}
+a:hover{
+
+  border: 5px solid;
+    border-color:green;
+    background-color: green;
+    border-radius: 16px;
+    padding:8px;
+
+    text-align: center;
+    
+}
