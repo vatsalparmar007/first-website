@@ -13,8 +13,17 @@ h1{
     padding: 5px;
     margin: 5px;
 }
-a{
+.button{
+
+
+    text-decoration-color: 009D9D;
     
-    
-    color: seashell;
-}
+} 
+.button:hover{
+    border: 5px solid;
+    border-color:green;
+    background-color: green;
+    border-radius: 16px;
+    padding:8px;
+
+    text-align: center;
